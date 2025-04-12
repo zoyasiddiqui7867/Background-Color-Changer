@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(121, 146, 210);
+}
+
+nav {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    height: 110px;
+    background-color: rgb(18, 18, 62);
+    color: rgb(231, 234, 243);
+    font-size: 40px;
+}
+button {
+    padding: 12px 24px;
+    margin: 20px 10px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+
+#green {
+    background-color: green;
+}
+#purple {
+    background-color: purple;
+}
+#red {
+    background-color: red;
+}
+#grey {
+    background-color: grey;
+}
+#black {
+    background-color: black;
+}
+
+#blue {
+    background-color: blue;
+}
+#white {
+    background-color: white;
+color: black;}
+    
+#lavender {
+    background-color: rgb(142, 64, 120);
+    
+}
+#pink {
+    background-color: rgb(209, 35, 134);
+}
+#yellow {
+    background-color: rgb(214, 232, 78);
+}
+
+button:hover {
+  
+    transform: scale(1.1);
+}
+
+

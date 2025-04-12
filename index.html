@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Color changer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: hsl(248, 75%, 70%);">
+
+    <nav>
+        <div class="top">BACKGROUND COLOR CHANGER</div>
+    </nav>
+ 
+    <button id="green">Green</button>
+    <button id="purple">Purple</button>
+    <button id="red">Red</button>
+    <button id="grey">Grey</button>
+    <button id="black">Black</button>
+    <button id="blue">Blue</button>
+    <button id="white">White</button>
+    <button id="lavender">Lavender</button>
+    <button id="pink">Pink</button>
+    <button id="yellow">yellow</button>
+</body>
+
+<script>
+function clickHandler(color){
+    return function() {
+        document.body.style.backgroundColor = `${color}`;
+    }
+}
+
+document.getElementById('green').onclick = clickHandler("green");
+document.getElementById('purple').onclick = clickHandler("purple");
+document.getElementById('red').onclick = clickHandler("red");
+document.getElementById('grey').onclick = clickHandler("grey");
+document.getElementById('black').onclick = clickHandler("black");
+document.getElementById('blue').onclick = clickHandler("blue");
+document.getElementById('white').onclick = clickHandler("white");
+document.getElementById('lavender').onclick = clickHandler("lavender");
+document.getElementById('pink').onclick = clickHandler("pink");
+document.getElementById('yellow').onclick = clickHandler("yellow");
+</script>
+
+</html>
